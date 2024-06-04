@@ -18,6 +18,12 @@
                     <x-nav-link href="{{ url('/alunos') }}">
                         {{ __('Alunos') }}
                     </x-nav-link>
+                    <x-nav-link href="{{ url('/professores') }}">
+                        {{ __('Professores') }}
+                    </x-nav-link>
+                    <x-nav-link href="{{ url('/funcionarios') }}">
+                        {{ __('Funcionários') }}
+                    </x-nav-link>
                 </div>
             </div>
 
